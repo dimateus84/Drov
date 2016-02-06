@@ -1,3 +1,7 @@
 .site-container {
-
+  width: $width;
+  margin: 0 auto;
+  position: relative;
+  @include clearfix;
+  overflow: hidden;
 }

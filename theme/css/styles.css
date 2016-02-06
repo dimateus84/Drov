@@ -429,7 +429,7 @@ body {
   min-height: 100%;
   height: 100%;
   font-size: 24px;
-  background: #fffce5;
+  background: #ffffff;
   color: #5c5c61;
   font-family: montserrat-regular;
   line-height: 1.5;
@@ -503,4 +503,31 @@ a {
 .width-padding {
   padding-left: 10.3%;
   padding-right: 10.3%;
+}
+
+.site-header {
+  position: relative;
+}
+.site-header .site-container {
+  height: 1058px;
+  background: #3287ad;
+}
+.site-header .site-container .header-back-img {
+  height: 746px;
+  background: url('../images/bg/header-bg.jpg') no-repeat;
+}
+
+.site-container {
+  width: 1238px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.site-container:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
 }

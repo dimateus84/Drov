@@ -1,3 +1,15 @@
 .site-header {
+  position: relative;
+
+  .site-container {
+    height: 1058px;
+    background: #3287ad;
+
+    .header-back-img {
+      height: 746px;
+      background: image_url("bg/header-bg.jpg") no-repeat;
+
+    }
+  }
 
 }
