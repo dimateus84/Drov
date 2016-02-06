@@ -5,7 +5,11 @@ html {
 body {
   min-height: 100%;
   height: 100%;
-  font-size: 14px;
+  font-size: 24px;
+  background: #fffce5;
+  color: #5c5c61;
+  font-family: $montserrat-regular;
+  line-height: 1.5;
 }
 
 *, :after, :before {
@@ -17,6 +21,24 @@ h1, h2, h3, h4, h5, h6, strong {
   font-weight: normal;
 }
 
+h1 {
+  font-family: $nexa_light;
+  color: #1176c0;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: $nexa_light;
+  color: #ffffff;
+  font-size: 48px;
+  margin: 0;
+}
+
+h3 {
+  font-family: $nexa_bold;
+  font-size: 24px;
+}
+
 img[style*="right"] {
   margin: 0 0 10px 20px;
   clear: right;
@@ -25,4 +47,36 @@ img[style*="right"] {
 img[style*="left"] {
   margin: 0 20px 10px 0;
   clear: left;
+}
+
+img {
+  display: block;
+}
+
+p {
+  margin: 0 0 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0 0 0 16px;
+
+  li {
+    margin: 0 0 16px;
+    padding: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.width-padding {
+  padding-left:10.3%;
+  padding-right:10.3%;
 }
