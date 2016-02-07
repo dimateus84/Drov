@@ -1,4 +1,4 @@
-//$icons: sprite-map('icons/*.png', $spacing: 8px, $layout: 'smart');
+$icons: sprite-map('icons/*.png', $spacing: 8px, $layout: 'smart');
 //$h-sprites: sprite-map('h-sprites/*.png',$layout: 'vertical', $spacing: 8px);
 //$v-sprites: sprite-map('v-sprites/*.png', $layout: 'horizontal', $spacing: 8px);
 
@@ -12,6 +12,6 @@ $width-tablet: 768px;
 $width-mobile: 480px;
 
 //fonts
-$nexa_bold:nexa_bold;
-$nexa_light:nexa_light;
+$nexa-bold:nexa-bold;
+$nexa-light:nexa-light;
 $montserrat-regular:montserrat-regular;

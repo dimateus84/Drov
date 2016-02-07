@@ -17,6 +17,39 @@
         </div>
 
       </div>
+
+    </div>
+
+    <div class="col-wrapper width-padding">
+      <div class="cols">
+        <div class="col col-1">
+          <h4>DROV TIRE
+            INFLATION</h4>
+        </div>
+        <div class="col col-2">
+          <h4>DROV
+            INTELLIGENT
+            SYSTEM</h4>
+        </div>
+        <div class="col col-3">
+          <h4>DROV
+            ANALYTICS</h4>
+          <div class="text">
+            Logistics Productivity & Analysis
+          </div>
+
+          <ul>
+            <li>Tire RIO</li>
+            <li>Compliance</li>
+            <li>Fuel Effeciency</li>
+            <li>Fleet Utilization & KPI’s</li>
+            <li>Vendor Comparative Analysis</li>
+            <li>Preventive Maintenance Effectiveness</li>
+          </ul>
+
+        </div>
+      </div>
+
     </div>
   </div>
 </header>

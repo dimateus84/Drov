@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'nexa-bold';
-  src: url("../fonts/Nexa_Bold.eot");
-  src: url("../fonts/Nexa_Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Nexa_Bold.woff") format("woff"), url("../fonts/Nexa_Bold.ttf") format("truetype"), url("../fonts/Nexa_Bold.svg#Nexa_Bold") format("svg");
+  src: url("../fonts/nexa-bold.eot");
+  src: url("../fonts/nexa-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/nexa-bold.woff") format("woff"), url("../fonts/nexa-bold.ttf") format("truetype"), url("../fonts/nexa-bold.svg#nexa-bold") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'nexa_light';
+  font-family: 'nexa-light';
   src: url("../fonts/nexa_light.eot");
   src: url("../fonts/nexa_light.eot?#iefix") format("embedded-opentype"), url("../fonts/nexa_light.woff") format("woff"), url("../fonts/nexa_light.ttf") format("truetype"), url("../fonts/nexa_light.svg#nexa_light") format("svg");
   font-weight: normal;
@@ -447,21 +447,29 @@ h1, h2, h3, h4, h5, h6, strong {
 }
 
 h1 {
-  font-family: nexa_light;
+  font-family: nexa-light;
   color: #1176c0;
   font-size: 60px;
 }
 
 h2 {
-  font-family: nexa_light;
+  font-family: nexa-light;
   color: #ffffff;
   font-size: 48px;
   margin: 0;
 }
 
 h3 {
-  font-family: nexa_bold;
+  font-family: nexa-bold;
   font-size: 24px;
+}
+
+h4 {
+  font-family: nexa-bold;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 img[style*="right"] {
@@ -515,6 +523,7 @@ a {
 .site-header .site-container .header-back-img {
   height: 746px;
   background: url('../images/bg/header-bg.jpg') no-repeat;
+  margin-bottom: 50px;
 }
 .site-header .site-container .header-back-img .logo-description-wrapper {
   position: relative;
@@ -533,6 +542,49 @@ a {
 .site-header .site-container .header-back-img .logo-description-wrapper .description {
   width: 36.1%;
   margin: 0 auto;
+}
+.site-header .site-container .col-wrapper .cols .col {
+  float: left;
+  border-left: 1px solid #ffffff;
+}
+.site-header .site-container .col-wrapper .cols .col:first-child {
+  border: none;
+}
+.site-header .site-container .col-wrapper .cols .col-1,
+.site-header .site-container .col-wrapper .cols .col-3 {
+  width: 27.9%;
+}
+.site-header .site-container .col-wrapper .cols .col-2 {
+  width: 44.2%;
+}
+.site-header .site-container .col-wrapper .cols .col-1,
+.site-header .site-container .col-wrapper .cols .col-2 {
+  padding-top: 20px;
+}
+.site-header .site-container .col-wrapper .cols .col-1 h4 {
+  width: 126px;
+}
+.site-header .site-container .col-wrapper .cols .col-1 h4:before {
+  content: '';
+  display: block;
+  height: 100px;
+  width: 99px;
+  background:  url('../images/icons-s75244680aa.png') 0 -172px no-repeat;
+}
+.site-header .site-container .col-wrapper .cols .col-3 {
+  color: #ffffff;
+  padding-left: 23px;
+}
+.site-header .site-container .col-wrapper .cols .col-3 h4 {
+  font-size: 14px;
+}
+.site-header .site-container .col-wrapper .cols .col-3 ul {
+  padding: 0;
+  margin: 0;
+}
+.site-header .site-container .col-wrapper .cols .col-3 ul li {
+  padding: 0;
+  margin: 0;
 }
 
 .outer-wrapper {
