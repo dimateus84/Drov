@@ -428,8 +428,8 @@ html {
 body {
   min-height: 100%;
   height: 100%;
-  font-size: 24px;
-  background: #ffffff;
+  font-size: 14px;
+  background: #282828;
   color: #5c5c61;
   font-family: montserrat-regular;
   line-height: 1.5;
@@ -515,6 +515,31 @@ a {
 .site-header .site-container .header-back-img {
   height: 746px;
   background: url('../images/bg/header-bg.jpg') no-repeat;
+}
+.site-header .site-container .header-back-img .logo-description-wrapper {
+  position: relative;
+  top: 134px;
+  text-align: center;
+}
+.site-header .site-container .header-back-img .logo-description-wrapper .logo {
+  margin-bottom: 5px;
+}
+.site-header .site-container .header-back-img .logo-description-wrapper .logo img {
+  margin: 0 auto;
+}
+.site-header .site-container .header-back-img .logo-description-wrapper h2 {
+  margin-bottom: 45px;
+}
+.site-header .site-container .header-back-img .logo-description-wrapper .description {
+  width: 36.1%;
+  margin: 0 auto;
+}
+
+.outer-wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 31px 0;
+  background-color: #ffffff;
 }
 
 .site-container {

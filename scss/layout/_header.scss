@@ -9,6 +9,30 @@
       height: 746px;
       background: image_url("bg/header-bg.jpg") no-repeat;
 
+      .logo-description-wrapper {
+        position: relative;
+        top: 134px;
+        text-align: center;
+
+        .logo {
+          margin-bottom: 5px;
+
+          img {
+            margin: 0 auto;
+          }
+        }
+
+        h2 {
+          margin-bottom: 45px;
+        }
+
+        .description {
+          width: 36.1%;
+          margin: 0 auto;
+        }
+
+      }
+
     }
   }
 
