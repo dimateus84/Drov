@@ -45,7 +45,7 @@
           border-left: 1px solid #ffffff;
 
           &:first-child {
-            border:none;
+            border: none;
           }
         }
 
@@ -61,21 +61,37 @@
         .col-1,
         .col-2 {
           padding-top: 20px;
-        }
 
+          h4 {
+            margin: 0;
+            text-align: center;
+
+            &:before {
+              content: '';
+              display: block;
+              margin: 0 auto 22px;
+            }
+
+          }
+        }
 
         .col-1 h4 {
           width: 126px;
 
           &:before {
-            content: '';
-            display: block;
             @include oneline-sprite-box($icons, header-col-1);
-
           }
 
         }
 
+        .col-2 h4 {
+          width: 151px;
+          margin: 0 auto;
+
+          &:before {
+            @include oneline-sprite-box($icons, header-col-2);
+          }
+        }
 
         .col-3 {
           color: #ffffff;
@@ -95,8 +111,6 @@
             }
           }
         }
-
-
 
       }
     }

@@ -561,15 +561,33 @@ a {
 .site-header .site-container .col-wrapper .cols .col-2 {
   padding-top: 20px;
 }
+.site-header .site-container .col-wrapper .cols .col-1 h4,
+.site-header .site-container .col-wrapper .cols .col-2 h4 {
+  margin: 0;
+  text-align: center;
+}
+.site-header .site-container .col-wrapper .cols .col-1 h4:before,
+.site-header .site-container .col-wrapper .cols .col-2 h4:before {
+  content: '';
+  display: block;
+  margin: 0 auto 22px;
+}
 .site-header .site-container .col-wrapper .cols .col-1 h4 {
   width: 126px;
 }
 .site-header .site-container .col-wrapper .cols .col-1 h4:before {
-  content: '';
-  display: block;
   height: 100px;
   width: 99px;
   background:  url('../images/icons-s75244680aa.png') 0 -172px no-repeat;
+}
+.site-header .site-container .col-wrapper .cols .col-2 h4 {
+  width: 151px;
+  margin: 0 auto;
+}
+.site-header .site-container .col-wrapper .cols .col-2 h4:before {
+  height: 100px;
+  width: 101px;
+  background:  url('../images/icons-s75244680aa.png') 0 -72px no-repeat;
 }
 .site-header .site-container .col-wrapper .cols .col-3 {
   color: #ffffff;
