@@ -42,6 +42,12 @@
 
   @import "common/defaults/defaults-s";
 
+  //sections
+  @import "section/top-s";
+
+  //blocks
+  @import "blocks/links/links-s";
+
 }
 
 @media (min-width: $width-tablet) and (max-width: $width + 29) {
