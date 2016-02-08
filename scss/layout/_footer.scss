@@ -1,3 +1,48 @@
 .site-footer {
+  height: 180px;
+  @include background(linear-gradient(bottom, #d9d9d9, #ffffff));
 
+  .contact-wrapper {
+
+    .location,
+    .contact,
+    .email
+    {
+      margin-left: 10px;
+      @include transition(all 0.3s);
+
+      &:before {
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: middle;
+
+      }
+
+      &:hover:before {
+        @include transform(scale(1.5));
+      }
+    }
+
+    .location:before {
+
+      @include oneline-sprite-box($icons, address);
+    }
+
+    .contact:before{
+
+      @include oneline-sprite-box($icons, phone);
+    }
+
+    .email:before{
+
+      @include oneline-sprite-box($icons, email);
+    }
+  }
+
+
+
+  .copy {
+    float: right;
+  }
 }

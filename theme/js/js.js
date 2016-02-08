@@ -39,7 +39,8 @@
         controlNav: true,
         directionNav: false,
         prevText: "",
-        nextText: ""
+        nextText: "",
+        direction: "vertical"
       });
     });
   }

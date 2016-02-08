@@ -80,12 +80,34 @@
 
         <div class="flexslider">
           <ul class="slides">
-            <li><img src="theme/images/tmp/slider-img-1.jpg" alt=""/></li>
-            <li><img src="theme/images/tmp/slider-img-2.jpg" alt=""/></li>
-            <li><img src="theme/images/tmp/slider-img-3.jpg" alt=""/></li>
-            <li><img src="theme/images/tmp/slider-img-4.jpg" alt=""/></li>
-            <li><img src="theme/images/tmp/slider-img-5.jpg" alt=""/></li>
-            <li><img src="theme/images/tmp/slider-img-6.jpg" alt=""/></li>
+            <li>
+              <div class="desc">All wheels are
+                individually scanned
+                for real-time operation.</div>
+              <img src="theme/images/tmp/slider-img-1.jpg" alt=""/>
+            </li>
+            <li>
+              <div class="desc">When faced with
+                an issue...</div>
+              <img src="theme/images/tmp/slider-img-2.jpg" alt=""/>
+            </li>
+            <li>
+              <div class="desc">Onboard Wheel Logic
+                (OWL) computer determines the situation</div>
+              <img src="theme/images/tmp/slider-img-3.jpg" alt=""/>
+            </li>
+            <li>
+              <div class="desc">and can inflate or deflate tires.</div>
+              <img src="theme/images/tmp/slider-img-4.jpg" alt=""/>
+            </li>
+            <li>
+              <div class="desc">Appropriate information is sent to logistics center</div>
+              <img src="theme/images/tmp/slider-img-5.jpg" alt=""/>
+            </li>
+            <li>
+              <div class="desc">OWL determines if driver action is necessary</div>
+              <img src="theme/images/tmp/slider-img-6.jpg" alt=""/>
+            </li>
             <li><img src="theme/images/tmp/slider-img-7.jpg" alt=""/></li>
           </ul>
         </div>
