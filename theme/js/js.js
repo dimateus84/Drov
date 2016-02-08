@@ -32,11 +32,11 @@
       $('.flexslider').flexslider({
         animation: "slade",
         animationLoop: false,
-        slideshow: true,
+        slideshow: false,
         slideshowSpeed: 6000,
         pauseOnHover: true,
-        controlNav: false,
-        directionNav: true,
+        controlNav: true,
+        directionNav: false,
         prevText: "",
         nextText: ""
       });

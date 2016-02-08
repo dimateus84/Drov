@@ -1,0 +1,40 @@
+.section-top {
+   position: relative;
+
+  .img {
+
+    img {
+      width: 100%;
+    }
+  }
+
+
+  .logo-text-wrapper {
+    position: absolute;
+    display: block;
+    top:124px;
+    left:50%;
+    @include transform(translate(-50%,0));
+    text-align: center;
+    width: 100%;
+
+    .logo {
+      margin-bottom: 5px;
+
+      img {
+        margin: 0 auto;
+      }
+    }
+
+    h2 {
+      margin-bottom: 45px;
+    }
+
+    .text {
+      width: 31.1%;
+      margin: 0 auto;
+    }
+
+  }
+
+}

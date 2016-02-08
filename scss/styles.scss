@@ -19,8 +19,13 @@
 @import "layout/site-container";
 
 //blocks
+@import "blocks/slider";
+@import "blocks/b-links/links";
 
 //pages
 
 //modules
 @import "modules/flexslider";
+
+//sections
+@import "section/top";
