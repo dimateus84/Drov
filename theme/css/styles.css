@@ -446,24 +446,11 @@ h1, h2, h3, h4, h5, h6, strong {
   font-weight: normal;
 }
 
-h4 {
-  font-family: nexa-light;
-  color: #1176c0;
-  font-size: 60px;
-  text-align: center;
-  margin: 0 0 100px;
-}
-
 h1 {
   font-family: nexa-light;
   color: #ffffff;
   font-size: 48px;
   margin: 0 0 50px;
-}
-
-h3 {
-  font-family: nexa-bold;
-  font-size: 24px;
 }
 
 h2, h3 {
@@ -473,14 +460,23 @@ h2, h3 {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-h2 .o, h3 .o {
-  text-decoration: overline;
-  letter-spacing: 0px;
-  margin-right: 3px;
-}
 
 h3 {
-  font-size: 14px;
+  font-size: 24px;
+}
+
+h4 {
+  font-family: nexa-light;
+  color: #1176c0;
+  font-size: 60px;
+  text-align: center;
+  margin: 0 0 100px;
+}
+
+h5 {
+  font-size: 24px;
+  margin: 0;
+  letter-spacing: 3px;
 }
 
 img[style*="right"] {
@@ -520,6 +516,12 @@ a {
   text-decoration: none;
 }
 
+span.o {
+  text-decoration: overline;
+  letter-spacing: 0px;
+  margin-right: 3px;
+}
+
 .site-header {
   display: none;
 }
@@ -536,7 +538,6 @@ a {
   width: 981px;
   margin: 0 auto;
   position: relative;
-  overflow: hidden;
 }
 .site-container:after {
   content: " ";
@@ -676,6 +677,60 @@ a {
   height: 20px;
   width: 13px;
   background:  url('../images/icons-sb032948f0a.png') 0 -46px no-repeat;
+}
+
+.b-desc {
+  background: url('../images/bg/desc-bg.jpg');
+  height: 313px;
+  position: relative;
+  left: 50%;
+  padding-top: 70px;
+  margin-bottom: 143px;
+}
+.b-desc h5 {
+  text-align: center;
+  color: #ffffff;
+  margin: 0 0 25px 0;
+  letter-spacing: 3px;
+}
+.b-desc .text {
+  text-align: justify;
+  width: 449px;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.b-info .content-item {
+  margin-bottom: 148px;
+}
+.b-info .content-item:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.b-info .content-item .desc {
+  float: left;
+  width: 38.8%;
+  padding-right: 4%;
+}
+.b-info .content-item .desc h5 {
+  margin-bottom: 30px;
+}
+.b-info .content-item .desc ul {
+  margin: 0 0 25px;
+}
+.b-info .content-item .desc ul li {
+  padding: 0;
+  margin: 0;
+}
+.b-info .content-item:nth-child(2) .desc {
+  float: right;
+}
+.b-info .content-item .img {
+  overflow: hidden;
 }
 
 /*

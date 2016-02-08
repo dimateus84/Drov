@@ -21,15 +21,15 @@
 
       <div class="text">
         <p>Ensure that optimal PSI is maintained at all times, dynamically,
-        with the Drov Total Wheel Management System.</p>
+          with the Drov Total Wheel Management System.</p>
       </div>
 
     </div>
 
   </div>
 
-  <div class="inner-wrapper site-container">
-    <div class="content-wrapper">
+  <div class="inner-wrapper">
+    <div class="content-wrapper site-container">
 
       <div class="b-links">
         <div class="item-wrapper">
@@ -42,6 +42,7 @@
           </div>
           <div class="item col-2">
             <img src="theme/images/tmp/header-col-2.png" alt=""/>
+
             <h2>
               DR<span class="o">O</span>V
               INTELLIGENT
@@ -49,10 +50,12 @@
           </div>
           <div class="item col-3">
             <img src="theme/images/tmp/header-col-3.png" alt=""/>
+
             <h3><span>
             DR<span class="o">O</span>V
             ANALYTICS </span>
             </h3>
+
             <div class="text">
               Logistics Productivity & Analysis
             </div>
@@ -73,7 +76,8 @@
 
 
       <div class="b-slider ">
-        <h4>Drov Intelligent System</h4>
+        <h4>Dr<span class="o">o</span>v Intelligent System</h4>
+
         <div class="flexslider">
           <ul class="slides">
             <li><img src="theme/images/tmp/slider-img-1.jpg" alt=""/></li>
@@ -84,6 +88,67 @@
             <li><img src="theme/images/tmp/slider-img-6.jpg" alt=""/></li>
             <li><img src="theme/images/tmp/slider-img-7.jpg" alt=""/></li>
           </ul>
+        </div>
+      </div>
+
+      <div class="b-desc">
+        <h5>WE PUT OUR BEST WHEEL FORWARD.</h5>
+
+        <div class="text">Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore. Magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut. aliquip ex ea. consequat. Duis aute irure
+          dolor in reprehenderit in voluptate velit esse cillum dolore
+          eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+          non proident,
+        </div>
+
+      </div>
+
+      <div class="b-info">
+        <div class="content-item">
+          <div class="desc">
+            <h5>MAINTAINING
+              IDEAL PSI</h5>
+
+            <div class="text">
+              <p>Sensors capture key information and automatically adjust the tire pressure to match the ideal PSI
+                recommended by the tire manufacturer... in real time.
+              </p>
+
+              <ul>
+                <li>Load</li>
+                <li>Temperature</li>
+                <li>Environment</li>
+              </ul>
+              <div class="img">
+                <img src="theme/images/tmp/ideal-psi.jpg" alt="ideal"/>
+              </div>
+            </div>
+          </div>
+          <div class="img">
+            <img src="theme/images/tmp/ideal-psi-graffik.jpg" alt="graffik"/>
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="desc">
+            <h5>VALUE PROPOSITION</h5>
+            <div class="text">
+              <p>By maintaining proper PSI at all times, vehicle owners will realize the Value represented by the Tire OEM:
+              </p>
+
+              <ul>
+                <li>Fuel Efficiency Gains / Compliance</li>
+                <li>Tire Life / ROI</li>
+                <li>Safety</li>
+              </ul>
+
+            </div>
+          </div>
+          <div class="img">
+            <img src="theme/images/tmp/value-proposition.jpg" alt="value"/>
+          </div>
         </div>
       </div>
 

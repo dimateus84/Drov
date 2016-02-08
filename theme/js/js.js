@@ -24,6 +24,7 @@
 
   function init() {
     initFlexslider();
+    initFullWidthBlock('.b-desc');
 
   }
 
@@ -41,6 +42,28 @@
         nextText: ""
       });
     });
+  }
+
+  function initFullWidthBlock(blok) {
+    var $elements = $(blok),
+      minWidth = 0;
+
+    $(window).on('resize', setPosition);
+    setPosition();
+
+    function setPosition() {
+      var $winWidth = $(window).outerWidth(),
+        width;
+
+      if ($winWidth > minWidth) {
+        width = $winWidth;
+      } else {
+        width = minWidth;
+      }
+
+      $elements.width(width);
+      $elements.css('margin-left', '-' + width / 2 + 'px');
+    }
   }
 
 })(jQuery);

@@ -1,0 +1,22 @@
+.b-desc {
+  background: image_url("bg/desc-bg.jpg");
+  height: 313px;
+  position: relative;
+  left: 50%;
+  padding-top: 70px;
+  margin-bottom: 143px;
+
+  h5 {
+    text-align: center;
+    color: #ffffff;
+    margin: 0 0 25px 0;
+    letter-spacing: 3px;
+  }
+
+  .text {
+    text-align: justify;
+    width: 449px;
+    color: #ffffff;
+    margin: 0 auto;
+  }
+}
