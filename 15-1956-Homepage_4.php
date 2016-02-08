@@ -108,7 +108,10 @@
               <div class="desc">OWL determines if driver action is necessary</div>
               <img src="theme/images/tmp/slider-img-6.jpg" alt=""/>
             </li>
-            <li><img src="theme/images/tmp/slider-img-7.jpg" alt=""/></li>
+            <li>
+              <div class="desc">Drov Analytics provides wheel history and other maintenance data</div>
+              <img src="theme/images/tmp/slider-img-7.jpg" alt=""/>
+              </li>
           </ul>
         </div>
       </div>

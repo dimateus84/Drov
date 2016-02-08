@@ -7,6 +7,7 @@
     font-family: $nexa-light;
     font-size: 24px;
     color: #707070;
+    line-height: 1.3;
 
     &:before {
       content: "";
@@ -25,7 +26,7 @@
       .desc {
         width: 260px;
         left: 60px;
-        top: 110px;
+        top: 127px;
 
         &:before {
           width: 70%;
@@ -102,6 +103,41 @@
 
       img {
         right: 237px;
+      }
+    }
+
+    &:nth-child(6) {
+
+      .desc {
+        width: 214px;
+        left: 206px;
+        top: 157px;
+
+
+        &:before {
+          width: 90%;
+        }
+      }
+
+      img {
+        right: -100px;
+      }
+    }
+
+    &:nth-child(7) {
+
+      .desc {
+        width: 272px;
+        left: 621px;
+        top: 159px;
+
+        &:before {
+          width: 70%;
+        }
+      }
+
+      img {
+        right: 120px;
       }
     }
 

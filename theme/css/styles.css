@@ -610,6 +610,7 @@ span.o {
   font-family: nexa-light;
   font-size: 24px;
   color: #707070;
+  line-height: 1.3;
 }
 .b-slider .desc:before {
   content: "";
@@ -624,7 +625,7 @@ span.o {
 .b-slider ul li:nth-child(1) .desc {
   width: 260px;
   left: 60px;
-  top: 110px;
+  top: 127px;
 }
 .b-slider ul li:nth-child(1) .desc:before {
   width: 70%;
@@ -675,6 +676,28 @@ span.o {
 }
 .b-slider ul li:nth-child(5) img {
   right: 237px;
+}
+.b-slider ul li:nth-child(6) .desc {
+  width: 214px;
+  left: 206px;
+  top: 157px;
+}
+.b-slider ul li:nth-child(6) .desc:before {
+  width: 90%;
+}
+.b-slider ul li:nth-child(6) img {
+  right: -100px;
+}
+.b-slider ul li:nth-child(7) .desc {
+  width: 272px;
+  left: 621px;
+  top: 159px;
+}
+.b-slider ul li:nth-child(7) .desc:before {
+  width: 70%;
+}
+.b-slider ul li:nth-child(7) img {
+  right: 120px;
 }
 .b-slider .flexslider .slides > li {
   position: relative;
