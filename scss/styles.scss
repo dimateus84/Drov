@@ -19,7 +19,7 @@
 @import "layout/site-container/_site-container";
 
 //blocks
-@import "blocks/slider/_slider";
+@import "blocks/slider/slider";
 @import "blocks/links/links";
 @import "blocks/desc/desc";
 @import "blocks/info/info";
@@ -36,12 +36,11 @@
 
   //layout
   @import "layout/site-container/site-container-s";
-  /*@import "layout/header/header-s";
-  @import "layout/footer/footer-s";
 
 
-  //blocks
-  @import "blocks/links/links-s";*/
+  //base styles
+
+  @import "common/defaults/defaults-s";
 
 }
 
@@ -56,6 +55,12 @@
 
   //sections
   @import "section/top-m";
+
+  //blocks
+  @import "blocks/slider/slider-m";
+  @import "blocks/links/links-m";
+  @import "blocks/desc/desc-m";
+  @import "blocks/info/info-m";
 
 }
 

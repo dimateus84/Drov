@@ -33,14 +33,14 @@
 
       <div class="b-links">
         <div class="item-wrapper">
-          <div class="item col-1">
+          <div class="item">
             <div class="img">
               <img src="theme/images/tmp/header-col-1.png" alt=""/>
             </div>
             <h2>DR<span class="o">O</span>V TIRE
               INFLATION</h2>
           </div>
-          <div class="item col-2">
+          <div class="item">
             <img src="theme/images/tmp/header-col-2.png" alt=""/>
 
             <h2>
@@ -48,7 +48,7 @@
               INTELLIGENT
               SYSTEM</h2>
           </div>
-          <div class="item col-3">
+          <div class="item">
             <img src="theme/images/tmp/header-col-3.png" alt=""/>
 
             <h3><span>
@@ -83,17 +83,20 @@
             <li>
               <div class="desc">All wheels are
                 individually scanned
-                for real-time operation.</div>
+                for real-time operation.
+              </div>
               <img src="theme/images/tmp/slider-img-1.jpg" alt=""/>
             </li>
             <li>
               <div class="desc">When faced with
-                an issue...</div>
+                an issue...
+              </div>
               <img src="theme/images/tmp/slider-img-2.jpg" alt=""/>
             </li>
             <li>
               <div class="desc">Onboard Wheel Logic
-                (OWL) computer determines the situation</div>
+                (OWL) computer determines the situation
+              </div>
               <img src="theme/images/tmp/slider-img-3.jpg" alt=""/>
             </li>
             <li>
@@ -111,7 +114,7 @@
             <li>
               <div class="desc">Drov Analytics provides wheel history and other maintenance data</div>
               <img src="theme/images/tmp/slider-img-7.jpg" alt=""/>
-              </li>
+            </li>
           </ul>
         </div>
       </div>
@@ -159,8 +162,10 @@
         <div class="content-item">
           <div class="desc">
             <h5>VALUE PROPOSITION</h5>
+
             <div class="text">
-              <p>By maintaining proper PSI at all times, vehicle owners will realize the Value represented by the Tire OEM:
+              <p>By maintaining proper PSI at all times, vehicle owners will realize the Value represented by the Tire
+                OEM:
               </p>
 
               <ul>
