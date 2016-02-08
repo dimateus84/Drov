@@ -6,7 +6,7 @@
 @import "common/settings";
 @import "common/normalize";
 @import "common/helpers";
-@import "common/defaults";
+@import "common/defaults/defaults";
 
 //forms
 @import "forms/forms";
@@ -16,11 +16,11 @@
 @import "layout/wrappers";
 @import "layout/content";
 @import "layout/footer";
-@import "layout/site-container";
+@import "layout/site-container/_site-container";
 
 //blocks
 @import "blocks/slider/_slider";
-@import "blocks/b-links/links";
+@import "blocks/links/links";
 @import "blocks/desc/desc";
 @import "blocks/info/info";
 
@@ -31,3 +31,38 @@
 
 //sections
 @import "section/top";
+
+@media (max-width: $width-tablet - 1) {
+
+  //layout
+  @import "layout/site-container/site-container-s";
+  /*@import "layout/header/header-s";
+  @import "layout/footer/footer-s";
+
+
+  //blocks
+  @import "blocks/links/links-s";*/
+
+}
+
+@media (min-width: $width-tablet) and (max-width: $width + 29) {
+
+  //layout
+  @import "layout/site-container/site-container-m";
+
+  //base styles
+
+   @import "common/defaults/defaults-m";
+
+  //sections
+  @import "section/top-m";
+
+}
+
+
+@media (min-width: $width + 30) {
+
+  //layout
+  @import "layout/site-container/site-container-l";
+
+}

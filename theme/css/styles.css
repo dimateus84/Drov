@@ -442,7 +442,7 @@ body {
   outline: none;
 }
 
-h1, h2, h3, h4, h5, h6, strong {
+h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
@@ -450,7 +450,7 @@ h1 {
   font-family: nexa-light;
   color: #ffffff;
   font-size: 48px;
-  margin: 0 0 50px;
+  margin-bottom: 2.7%;
 }
 
 h2, h3 {
@@ -528,7 +528,7 @@ span.o {
 }
 
 .outer-wrapper {
-  padding: 31px;
+  padding: 1.8%;
 }
 
 .inner-wrapper {
@@ -542,6 +542,10 @@ span.o {
   background: -moz-linear-gradient(bottom, #d9d9d9, #ffffff);
   background: -webkit-linear-gradient(bottom, #d9d9d9, #ffffff);
   background: linear-gradient(to top, #d9d9d9, #ffffff);
+  overflow: hidden;
+}
+.site-footer .site-container {
+  padding-top: 50px;
 }
 .site-footer .contact-wrapper .location,
 .site-footer .contact-wrapper .contact,
@@ -585,10 +589,11 @@ span.o {
 }
 .site-footer .copy {
   float: right;
+  position: relative;
+  top: -30px;
 }
 
 .site-container {
-  width: 981px;
   margin: 0 auto;
   position: relative;
 }
@@ -618,9 +623,6 @@ span.o {
   height: 7px;
   background: #3287ad;
   margin-bottom: 15px;
-}
-.b-slider ul li {
-  position: relative;
 }
 .b-slider ul li:nth-child(1) .desc {
   width: 260px;
@@ -751,10 +753,10 @@ span.o {
   cursor: pointer;
 }
 .b-links .item-wrapper .item:hover img {
-  -moz-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 .b-links .item-wrapper .item:first-child {
   border: none;
@@ -966,7 +968,7 @@ html[xmlns] .flexslider .slides {
   position: absolute;
   top: 50%;
   text-align: center;
-  right: -73px;
+  right: 0;
   -moz-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   -webkit-transform: translate(0, -50%);
@@ -1020,11 +1022,9 @@ html[xmlns] .flexslider .slides {
   display: block;
   opacity: .7;
   cursor: pointer;
-  -moz-user-select: none;
-  -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
   -o-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
   transition: all 1s ease;
 }
 
@@ -1046,7 +1046,7 @@ html[xmlns] .flexslider .slides {
 .section-top .logo-text-wrapper {
   position: absolute;
   display: block;
-  top: 124px;
+  top: 12%;
   left: 50%;
   -moz-transform: translate(-50%, 0);
   -ms-transform: translate(-50%, 0);
@@ -1061,10 +1061,118 @@ html[xmlns] .flexslider .slides {
 .section-top .logo-text-wrapper .logo img {
   margin: 0 auto;
 }
-.section-top .logo-text-wrapper h2 {
-  margin-bottom: 45px;
-}
 .section-top .logo-text-wrapper .text {
   width: 31.1%;
   margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .site-container {
+    width: 90%;
+  }
+
+  /*@import "layout/header/header-s";
+  @import "layout/footer/footer-s";
+
+
+  //blocks
+  @import "blocks/links/links-s";*/
+}
+@media (min-width: 768px) and (max-width: 1010px) {
+  .site-container {
+    width: 728px;
+  }
+
+  body {
+    min-height: 100%;
+    height: 100%;
+    font-size: 14px;
+    background: #ffffff;
+    color: #5c5c61;
+    font-family: montserrat-regular;
+    line-height: 1.5;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2, h3 {
+    font-family: nexa-bold;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-family: nexa-light;
+    color: #1176c0;
+    font-size: 60px;
+    text-align: center;
+    margin: 0 0 100px;
+  }
+
+  h5 {
+    font-family: nexa-bold;
+    font-size: 24px;
+    margin: 0;
+    letter-spacing: 3px;
+  }
+
+  img[style*="right"] {
+    margin: 0 0 10px 20px;
+    clear: right;
+  }
+
+  img[style*="left"] {
+    margin: 0 20px 10px 0;
+    clear: left;
+  }
+
+  img {
+    display: block;
+  }
+
+  p {
+    margin: 0 0 20px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0 0 0 16px;
+  }
+  ul li {
+    margin: 0 0 16px;
+    padding: 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  span.o {
+    text-decoration: overline;
+    letter-spacing: 0px;
+    margin-right: 3px;
+  }
+
+  .section-top .logo-text-wrapper .text {
+    width: 80%;
+  }
+}
+@media (min-width: 1011px) {
+  .site-container {
+    width: 981px;
+  }
 }

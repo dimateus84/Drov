@@ -12,7 +12,7 @@
   .logo-text-wrapper {
     position: absolute;
     display: block;
-    top:124px;
+    top: 12%;
     left:50%;
     @include transform(translate(-50%,0));
     text-align: center;
@@ -24,10 +24,6 @@
       img {
         margin: 0 auto;
       }
-    }
-
-    h2 {
-      margin-bottom: 45px;
     }
 
     .text {

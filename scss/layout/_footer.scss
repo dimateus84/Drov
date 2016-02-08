@@ -1,6 +1,11 @@
 .site-footer {
   height: 180px;
   @include background(linear-gradient(bottom, #d9d9d9, #ffffff));
+  overflow: hidden;
+
+  .site-container {
+    padding-top: 50px;
+  }
 
   .contact-wrapper {
 
@@ -44,5 +49,7 @@
 
   .copy {
     float: right;
+    position: relative;
+    top: -30px;
   }
 }
