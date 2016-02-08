@@ -23,17 +23,19 @@
     <div class="col-wrapper width-padding">
       <div class="cols">
         <div class="col col-1">
-          <h4>DROV TIRE
+          <h4>DR<span class="o">O</span>V TIRE
             INFLATION</h4>
         </div>
         <div class="col col-2">
-          <h4>DROV
+          <h4>DR<span class="o">O</span>V
             INTELLIGENT
             SYSTEM</h4>
         </div>
         <div class="col col-3">
-          <h4>DROV
-            ANALYTICS</h4>
+          <h4>
+            <span>DR<span class="o">O</span>V
+            ANALYTICS</span>
+          </h4>
           <div class="text">
             Logistics Productivity & Analysis
           </div>

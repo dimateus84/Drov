@@ -23,7 +23,24 @@
   });
 
   function init() {
+    initFlexslider();
 
+  }
+
+  function initFlexslider() {
+    $(window).load(function () {
+      $('.flexslider').flexslider({
+        animation: "slade",
+        animationLoop: false,
+        slideshow: true,
+        slideshowSpeed: 6000,
+        pauseOnHover: true,
+        controlNav: false,
+        directionNav: true,
+        prevText: "",
+        nextText: ""
+      });
+    });
   }
 
 })(jQuery);

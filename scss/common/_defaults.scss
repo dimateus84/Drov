@@ -45,6 +45,12 @@ h4 {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 3px;
+
+  .o {
+    text-decoration: overline;
+    letter-spacing: 0px;
+    margin-right: 3px;
+  }
 }
 
 img[style*="right"] {
@@ -85,6 +91,6 @@ a {
 }
 
 .width-padding {
-  padding-left:10.3%;
-  padding-right:10.3%;
+  padding-left: 10.3%;
+  padding-right: 10.3%;
 }

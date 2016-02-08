@@ -471,6 +471,11 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
+h4 .o {
+  text-decoration: overline;
+  letter-spacing: 0px;
+  margin-right: 3px;
+}
 
 img[style*="right"] {
   margin: 0 0 10px 20px;
@@ -543,9 +548,18 @@ a {
   width: 36.1%;
   margin: 0 auto;
 }
+.site-header .site-container .col-wrapper .cols:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
 .site-header .site-container .col-wrapper .cols .col {
   float: left;
   border-left: 1px solid #ffffff;
+  height: 210px;
 }
 .site-header .site-container .col-wrapper .cols .col:first-child {
   border: none;
@@ -592,17 +606,54 @@ a {
 .site-header .site-container .col-wrapper .cols .col-3 {
   color: #ffffff;
   padding-left: 23px;
+  position: relative;
 }
 .site-header .site-container .col-wrapper .cols .col-3 h4 {
   font-size: 14px;
+  width: 180px;
+  margin: 0 0 5px;
+  height: 56px;
+  position: relative;
+}
+.site-header .site-container .col-wrapper .cols .col-3 h4 > span {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 65px;
+  width: 110px;
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+.site-header .site-container .col-wrapper .cols .col-3 h4:before {
+  content: '';
+  float: left;
+  margin: 0;
+  height: 52px;
+  width: 52px;
+  background:  url('../images/icons-s75244680aa.png') 0 0 no-repeat;
+}
+.site-header .site-container .col-wrapper .cols .col-3 .text {
+  margin-bottom: 10px;
 }
 .site-header .site-container .col-wrapper .cols .col-3 ul {
-  padding: 0;
   margin: 0;
 }
 .site-header .site-container .col-wrapper .cols .col-3 ul li {
   padding: 0;
   margin: 0;
+}
+.site-header .site-container .col-wrapper .cols .col-3:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  height: 20px;
+  width: 13px;
+  background:  url('../images/icons-s75244680aa.png') -46px -52px no-repeat;
 }
 
 .outer-wrapper {
