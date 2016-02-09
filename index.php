@@ -155,7 +155,7 @@
 
     <div class="b-info">
       <div class="content-item">
-        <div class="el-with-animation desc" data-offset-top=“20”>
+        <div class="el-with-animation desc" data-offset-top="150">
           <h5>MAINTAINING
             IDEAL PSI</h5>
 
@@ -174,12 +174,12 @@
             </div>
           </div>
         </div>
-        <div data-offset-top=“100” class="img el-with-animation">
+        <div data-offset-top="150" class="img el-with-animation">
           <img src="theme/images/tmp/ideal-psi-graffik.jpg" alt="graffik"/>
         </div>
       </div>
       <div class="content-item">
-        <div data-offset-top=“100” class="desc el-with-animation">
+        <div data-offset-top="150" class="desc el-with-animation">
           <h5>VALUE PROPOSITION</h5>
 
           <div class="text">
@@ -195,7 +195,7 @@
 
           </div>
         </div>
-        <div data-offset-top=“100” class="img el-with-animation">
+        <div data-offset-top="150" class="img el-with-animation">
           <img src="theme/images/tmp/value-proposition.jpg" alt="value"/>
         </div>
       </div>
