@@ -24,7 +24,13 @@
 
   function init() {
     initFullWidthBlock('.b-desc');
+    initCloneSlider();
 
+  }
+
+  function initCloneSlider() {
+    $(".slider-d").clone().removeClass().addClass("slider-m").appendTo(".b-slider");
+    $(".slider-m .flexslider").removeClass().addClass("mobile-flexslider");
   }
 
   function initFlexslider() {
