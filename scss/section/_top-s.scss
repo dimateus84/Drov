@@ -1,12 +1,10 @@
 .section-top {
+  overflow: hidden;
 
-  .site-container {
-
-    .text {
-      width: 100%;
-      color: #fff;
-    }
-
+  .img img {
+    min-width: 747px;
+    position: relative;
+    transform: translate(-50%,0);
+    left: 50%;
   }
-
 }

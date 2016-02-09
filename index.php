@@ -56,9 +56,9 @@
             ANALYTICS </span>
           </h3>
 
-          <div class="text">
+          <p>
             Logistics Productivity & Analysis
-          </div>
+          </p>
 
           <ul>
             <li>Tire RIO</li>

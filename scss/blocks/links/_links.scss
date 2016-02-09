@@ -105,8 +105,8 @@
           }
         }
 
-        .text {
-          margin-bottom: 10px;
+        p {
+          margin: 0 0 10px;
         }
 
         ul {
@@ -116,11 +116,6 @@
             padding: 0;
             margin: 0;
           }
-        }
-
-        &:after {
-          @include pseudo-block(50%, 0, false, false);
-          @include oneline-sprite-box($icons, header-col-3-arrow);
         }
       }
     }
