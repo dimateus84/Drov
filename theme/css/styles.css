@@ -1340,6 +1340,9 @@ span.o {
   .b-slider .mobile-flexslider .slides > li img {
     position: static;
   }
+  .b-slider .mobile-flexslider .slides .flex-control-nav li {
+    margin: 5px;
+  }
   .b-slider .flexslider {
     display: none;
   }
