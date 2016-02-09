@@ -21,52 +21,5 @@ h4 {
 }
 
 h5 {
-  font-family: $nexa-bold;
   font-size: 24px;
-  margin: 0;
-  letter-spacing: 3px;
-}
-
-img[style*="right"] {
-  margin: 0 0 10px 20px;
-  clear: right;
-}
-
-img[style*="left"] {
-  margin: 0 20px 10px 0;
-  clear: left;
-}
-
-img {
-  display: block;
-}
-
-p {
-  margin: 0 0 20px;
-}
-
-ul {
-  margin: 0;
-  padding: 0 0 0 16px;
-
-  li {
-    margin: 0 0 16px;
-    padding: 0;
-  }
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  vertical-align: top;
-}
-
-a {
-  text-decoration: none;
-}
-
-span.o {
-  text-decoration: overline;
-  letter-spacing: 0px;
-  margin-right: 3px;
 }

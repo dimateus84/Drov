@@ -1,7 +1,6 @@
 .b-info {
 
   .content-item {
-    @include clearfix();
     margin-bottom: 48px;
 
     .desc {
@@ -11,31 +10,13 @@
       h5 {
         margin-bottom: 12px;
       }
-
-      ul {
-        margin: 0 0 25px;
-
-        li {
-          padding: 0;
-          margin: 0;
-        }
-      }
     }
 
     &:nth-child(2) {
-
-      .desc {
-        float: right;
-      }
 
       .img {
         padding-right: 30px;
       }
     }
-
-    .img {
-     overflow: hidden;
-    }
   }
-
 }
