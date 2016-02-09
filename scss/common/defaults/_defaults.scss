@@ -10,6 +10,9 @@ body {
   color: #5c5c61;
   font-family: $montserrat-regular;
   line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
 }
 
 *, :after, :before {

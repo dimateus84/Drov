@@ -1,138 +1,33 @@
 .b-slider {
-  padding: 20px 0;
+  padding: 30px 0;
 
-  .desc {
-    font-size: 18px;
-    line-height: 1.3;
+  .mobile-flexslider {
+    display: block;
 
-    &:before {
-      height: 7px;
-      margin-bottom: 15px;
+    .slides {
+
+      .desc {
+        font-size: 18px;
+        line-height: 1.3;
+        position: static; //*
+        margin: 0 auto; //*
+        text-align: center; //*
+
+        &:before {
+          width: 100%; //*
+          height: 7px;
+          margin-bottom: 15px;
+        }
+      }
+
+      & > li img {
+
+        position: static; //*
+      }
     }
   }
 
-  ul li {
-
-    &:nth-child(1) {
-
-      .desc {
-        width: 260px;
-        left: 60px;
-        top: 127px;
-
-        &:before {
-          width: 70%;
-        }
-      }
-
-      img {
-        right: -156px;
-      }
-    }
-
-    &:nth-child(2) {
-
-      .desc {
-        width: 194px;
-        left: 467px;//*
-        top: 170px;
-
-        &:before {
-          width: 70%;
-        }
-      }
-
-      img {
-        right: 112px;
-      }
-    }
-
-    &:nth-child(3) {
-
-      .desc {
-        width: 180px;//*
-        left: 538px;//*
-        top: 110px;//*
-
-        &:before {
-          width: 70%;
-        }
-      }
-
-      img {
-        right: 120px;//*
-      }
-    }
-
-    &:nth-child(4) {
-
-      .desc {
-        width: 199px;
-        left: 103px;
-        top: 137px;//*
-
-        &:before {
-          width: 100%;
-        }
-      }
-
-      img {
-        right: -156px;
-      }
-    }
-
-    &:nth-child(5) {
-
-      .desc {
-        width: 170px;//*
-        left: 518px;//*
-        top: 126px;//*
-
-        &:before {
-          width: 70%;
-        }
-      }
-
-      img {
-        right: 190px;
-      }
-    }
-
-    &:nth-child(6) {
-
-      .desc {
-        width: 214px;
-        left: 118px;
-        top: 157px;
-
-
-        &:before {
-          width: 90%;
-        }
-      }
-
-      img {
-        right: -158px;
-      }
-    }
-
-    &:nth-child(7) {
-
-      .desc {
-        width: 225px;
-        left: 428px;
-        top: 98px;
-
-        &:before {
-          width: 70%;
-        }
-      }
-
-      img {
-        right: 120px;
-      }
-    }
-
+  .flexslider {
+    display: none;
   }
-
 }

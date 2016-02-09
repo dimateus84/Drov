@@ -17,53 +17,10 @@ h3 {
 
 h4 {
   font-size: 24px;//*
-  margin: 0 0 4%;
+  margin: 0 0 0;//*
 }
 
 h5 {
   font-size: 14px;
 }
 
-img[style*="right"] {
-  margin: 0 0 10px 20px;
-  clear: right;
-}
-
-img[style*="left"] {
-  margin: 0 20px 10px 0;
-  clear: left;
-}
-
-img {
-  display: block;
-}
-
-p {
-  margin: 0 0 20px;
-}
-
-ul {
-  margin: 0;
-  padding: 0 0 0 16px;
-
-  li {
-    margin: 0 0 16px;
-    padding: 0;
-  }
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  vertical-align: top;
-}
-
-a {
-  text-decoration: none;
-}
-
-span.o {
-  text-decoration: overline;
-  letter-spacing: 0px;
-  margin-right: 3px;
-}

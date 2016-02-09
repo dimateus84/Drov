@@ -2,6 +2,10 @@
   position: relative;
   padding: 12% 0;
 
+  .mobile-flexslider {
+    display: none;
+  }
+
   .desc {
     position: absolute;
     font-family: $nexa-light;
@@ -142,7 +146,8 @@
 
   }
 
-  .flexslider .slides > li {
+  .flexslider .slides > li,
+  .mobile-flexslider .slides > li {
     position: relative;
 
     img {

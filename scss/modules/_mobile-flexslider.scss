@@ -1,6 +1,6 @@
 /*
- * jQuery FlexSlider v2.5.0
- * http://www.woothemes.com/flexslider/
+ * jQuery mobile-FlexSlider v2.5.0
+ * http://www.woothemes.com/mobile-flexslider/
  *
  * Copyright 2012 WooThemes
  * Free to use under the GPLv2 and later license.
@@ -13,7 +13,7 @@
 /* ====================================================================================================================
  * RESETS
  * ====================================================================================================================*/
-.slider-d {
+.slider-m {
   .flex-container a:hover,
   .flex-slider a:hover,
   .flex-container a:focus,
@@ -37,24 +37,24 @@
   /* ====================================================================================================================
    * BASE STYLES
    * ====================================================================================================================*/
-  .flexslider {
+  .mobile-flexslider {
     margin: 0;
     padding: 0;
     position: relative;
 
   }
 
-  .flexslider .slides > li {
+  .mobile-flexslider .slides > li {
     display: none;
     -webkit-backface-visibility: hidden;
   }
 
-  .flexslider .slides img {
+  .mobile-flexslider .slides img {
     width: 100%;
     display: block;
   }
 
-  .flexslider .slides:after {
+  .mobile-flexslider .slides:after {
     content: "\0020";
     display: block;
     clear: both;
@@ -63,29 +63,29 @@
     height: 0;
   }
 
-  html[xmlns] .flexslider .slides {
+  html[xmlns] .mobile-flexslider .slides {
     display: block;
   }
 
-  * html .flexslider .slides {
+  * html .mobile-flexslider .slides {
     height: 1%;
   }
 
-  .no-js .flexslider .slides > li:first-child {
+  .no-js .mobile-flexslider .slides > li:first-child {
     display: block;
   }
 
   .flex-control-nav {
     width: auto;
     position: absolute;
-    top: 50%;
+    bottom: -25px;
+    left: 50%;
     text-align: center;
-    right: 0;
-    @include transform(translate(0, -50%));
+    @include transform(translate(-50%, 0));
   }
   .flex-control-nav li {
-    margin: 9px 0px;
-    display: block;
+    margin: 5px;
+    float: left;
     zoom: 1;
     *display: inline;
   }

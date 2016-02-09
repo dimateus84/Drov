@@ -24,7 +24,8 @@
 
   function init() {
     initFlexslider();
-    initFullWidthBlock('.b-desc');
+    initMobileFlexslider();
+    initFullWidthBlock();
 
   }
 
@@ -38,15 +39,28 @@
         pauseOnHover: true,
         controlNav: true,
         directionNav: false,
-        prevText: "",
-        nextText: "",
         direction: "vertical"
       });
     });
   }
 
-  function initFullWidthBlock(blok) {
-    var $elements = $(blok),
+  function initMobileFlexslider() {
+    $(window).load(function () {
+      $('.mobile-flexslider').flexslider({
+        animation: "slade",
+        animationLoop: false,
+        slideshow: false,
+        slideshowSpeed: 6000,
+        pauseOnHover: true,
+        controlNav: true,
+        directionNav: false,
+        direction: "horizontal"
+      });
+    });
+  }
+
+  function initFullWidthBlock() {
+    var $elements = $('.b-desc'),
       minWidth = 0;
 
     $(window).on('resize', setPosition);
