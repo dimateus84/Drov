@@ -25,7 +25,39 @@
   function init() {
     initFullWidthBlock('.b-desc');
     initCloneSlider();
+    initElmsAnimation();
 
+  }
+
+  function initElmsAnimation() {
+    var $elms = $('.el-with-animation');
+    var animationEnd = [];
+
+    $(window).on('resize scroll', checkScroll);
+
+    checkScroll();
+
+    function checkScroll() {
+      if (animationEnd.length === $elms.length) return;
+
+      for (var i = 0; i < $elms.length; i++) {
+        var $currentEl = $elms.eq(i);
+        var offsetTop = parseInt($currentEl.attr('data-offset-top'));
+
+        if (!offsetTop) {
+          offsetTop = $currentEl.height() / 2 + 50;
+        }
+
+        if (!$currentEl.hasClass('animating-end') && $(window).height() + $(window).scrollTop() > $currentEl.offset().top + offsetTop) {
+          animate($currentEl);
+        }
+      }
+    }
+
+    function animate(el) {
+      el.addClass('animating-end');
+      animationEnd.push(1);
+    }
   }
 
   function initCloneSlider() {

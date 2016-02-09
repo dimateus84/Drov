@@ -4,10 +4,19 @@
     @include clearfix();
     margin-bottom: 148px;
 
+    .el-with-animation {
+      opacity: 0;
+    }
+
+    .animating-end {
+      opacity: 1;
+    }
+
     .desc {
       float: left;
       width: 38.8%;
       padding-right: 4%;
+      @include transition(all 0.5s);
 
       h5 {
         margin-bottom: 30px;
@@ -32,6 +41,7 @@
 
     .img {
      overflow: hidden;
+     @include transition(all 2s);
     }
   }
 

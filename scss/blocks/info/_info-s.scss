@@ -3,6 +3,10 @@
   .content-item {
     margin-bottom: 20px;
 
+    .el-with-animation {
+      opacity: 1;
+    }
+
     .desc {
       float: none;
       width: 100%;

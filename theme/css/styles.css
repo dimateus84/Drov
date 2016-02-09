@@ -654,7 +654,7 @@ span.o {
 }
 .b-slider ul li:nth-child(3) .desc {
   width: 272px;
-  left: 715px;
+  left: 697px;
   top: 159px;
 }
 .b-slider ul li:nth-child(3) .desc:before {
@@ -855,10 +855,20 @@ span.o {
   overflow: hidden;
   visibility: hidden;
 }
+.b-info .content-item .el-with-animation {
+  opacity: 0;
+}
+.b-info .content-item .animating-end {
+  opacity: 1;
+}
 .b-info .content-item .desc {
   float: left;
   width: 38.8%;
   padding-right: 4%;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .b-info .content-item .desc h5 {
   margin-bottom: 30px;
@@ -875,6 +885,10 @@ span.o {
 }
 .b-info .content-item .img {
   overflow: hidden;
+  -moz-transition: all 2s;
+  -o-transition: all 2s;
+  -webkit-transition: all 2s;
+  transition: all 2s;
 }
 
 /*
@@ -1341,6 +1355,9 @@ span.o {
   .b-info .content-item {
     margin-bottom: 20px;
   }
+  .b-info .content-item .el-with-animation {
+    opacity: 1;
+  }
   .b-info .content-item .desc {
     float: none;
     width: 100%;
@@ -1426,6 +1443,9 @@ span.o {
 
   .b-info .content-item {
     margin-bottom: 48px;
+  }
+  .b-info .content-item .el-with-animation {
+    opacity: 1;
   }
   .b-info .content-item .desc {
     width: 48.8%;
