@@ -15,7 +15,6 @@
   }
 
   .item-wrapper {
-    @include clearfix();
     padding: 51px 0 51px;
     display: table;
 
@@ -52,7 +51,6 @@
 
       &:nth-child(1),
       &:nth-child(2) {
-        padding-top: 20px;
 
         h2 {
           margin: 0;
@@ -72,6 +70,7 @@
       }
 
       &:nth-child(2) {
+        padding-top: 20px;
 
         img {
           margin: 0 auto 23px;

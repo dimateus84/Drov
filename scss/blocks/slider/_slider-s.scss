@@ -4,6 +4,14 @@
   .mobile-flexslider {
     display: block;
 
+    .flex-control-nav {
+      bottom: -38px;
+
+      li {
+        margin: 2px;
+      }
+    }
+
     .slides {
 
       .desc {

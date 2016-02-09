@@ -1,13 +1,13 @@
 .b-links {
 
   .item-wrapper {
-    @include clearfix();
     padding: 5px 0 5px;
+    display: block;
 
     .item {
       float: none;
       border-left: none;
-      height: auto;
+      display: block;
 
       &:nth-child(1),
       &:nth-child(3) {

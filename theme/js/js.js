@@ -18,45 +18,33 @@
     }
 
     $(window).load(function() {
-
+      initFlexslider();
     });
   });
 
   function init() {
-    initFlexslider();
-    initMobileFlexslider();
     initFullWidthBlock('.b-desc');
 
   }
 
   function initFlexslider() {
-    $(window).load(function () {
-      $('.flexslider').flexslider({
-        animation: "slade",
-        animationLoop: false,
-        slideshow: false,
-        slideshowSpeed: 6000,
-        pauseOnHover: true,
-        controlNav: true,
-        directionNav: false,
-        direction: "vertical"
-      });
-    });
-  }
+    var config = {
+      animation: "slade",
+      animationLoop: false,
+      slideshow: false,
+      slideshowSpeed: 6000,
+      pauseOnHover: true,
+      controlNav: true,
+      directionNav: false
+    };
 
-  function initMobileFlexslider() {
-    $(window).load(function () {
-      $('.mobile-flexslider').flexslider({
-        animation: "slade",
-        animationLoop: false,
-        slideshow: false,
-        slideshowSpeed: 6000,
-        pauseOnHover: true,
-        controlNav: true,
-        directionNav: false,
-        direction: "horizontal"
-      });
-    });
+    $('.flexslider').flexslider($.extend(config, {
+      direction: 'vertical'
+    }));
+
+    $('.mobile-flexslider').flexslider($.extend(config, {
+      direction: 'horizontal'
+    }));
   }
 
   function initFullWidthBlock(block) {
