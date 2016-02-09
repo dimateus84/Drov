@@ -15,8 +15,8 @@
 @import "layout/header";
 @import "layout/wrappers";
 @import "layout/content";
-@import "layout/footer";
-@import "layout/site-container/_site-container";
+@import "layout/footer/footer";
+@import "layout/site-container/site-container";
 
 //blocks
 @import "blocks/slider/slider";
@@ -36,6 +36,7 @@
 
   //layout
   @import "layout/site-container/site-container-s";
+  @import "layout/footer/footer-s";
 
 
   //base styles
@@ -47,6 +48,9 @@
 
   //blocks
   @import "blocks/links/links-s";
+  @import "blocks/slider/slider-s";
+  @import "blocks/desc/desc-s";
+  @import "blocks/info/info-s";
 
 }
 
