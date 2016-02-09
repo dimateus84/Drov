@@ -155,7 +155,7 @@
 
     <div class="b-info">
       <div class="content-item">
-        <div class="desc el-with-animation" data-offset-top=“20”>
+        <div class="el-with-animation desc" data-offset-top=“20”>
           <h5>MAINTAINING
             IDEAL PSI</h5>
 
