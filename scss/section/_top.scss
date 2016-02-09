@@ -1,5 +1,5 @@
 .section-top {
-   position: relative;
+  position: relative;
 
   .img {
 
@@ -8,18 +8,18 @@
     }
   }
 
-
-  .logo-text-wrapper {
+  .site-container {
     position: absolute;
     display: block;
     top: 12%;
-    left:50%;
-    @include transform(translate(-50%,0));
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     text-align: center;
     width: 100%;
 
     .logo {
-      margin-bottom: 5px;
+      margin-bottom: 2%;
 
       img {
         margin: 0 auto;
@@ -27,7 +27,7 @@
     }
 
     .text {
-      width: 31.1%;
+      max-width: 580px;
       margin: 0 auto;
     }
 

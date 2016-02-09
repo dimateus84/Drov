@@ -25,7 +25,7 @@
   function init() {
     initFlexslider();
     initMobileFlexslider();
-    initFullWidthBlock();
+    initFullWidthBlock('.b-desc');
 
   }
 
@@ -59,8 +59,8 @@
     });
   }
 
-  function initFullWidthBlock() {
-    var $elements = $('.b-desc'),
+  function initFullWidthBlock(block) {
+    var $elements = $(block),
       minWidth = 0;
 
     $(window).on('resize', setPosition);

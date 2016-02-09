@@ -17,11 +17,12 @@
   .item-wrapper {
     @include clearfix();
     padding: 51px 0 51px;
+    display: table;
 
     .item {
-      float: left;
+      display: table-cell;
       border-left: 1px solid #ffffff;
-      height: 210px;
+      vertical-align: middle;
 
       img {
         @include transition(all 0.3s);

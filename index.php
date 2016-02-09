@@ -10,7 +10,7 @@
     <img src="theme/images/bg/header-bg.jpg" alt="header"/>
   </div>
 
-  <div class="logo-text-wrapper">
+  <div class="site-container">
 
     <div class="logo">
       <a href="#"><img src="theme/images/logo.png" alt="logo"/>
@@ -177,6 +177,7 @@
 </div>
 
 <div class="b-desc">
+
   <h5>WE PUT OUR BEST WHEEL FORWARD.</h5>
 
   <div class="text">Lorem ipsum dolor sit amet,
