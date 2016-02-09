@@ -80,7 +80,7 @@
     position: absolute;
     top: 50%;
     text-align: center;
-    right: 0;
+    right: 15px;
     @include transform(translate(0, -50%));
   }
   .flex-control-nav li {

@@ -116,7 +116,6 @@
         left: 206px;
         top: 157px;
 
-
         &:before {
           width: 90%;
         }
@@ -146,8 +145,7 @@
 
   }
 
-  .flexslider .slides > li,
-  .mobile-flexslider .slides > li {
+  .flexslider .slides > li {
     position: relative;
 
     img {
