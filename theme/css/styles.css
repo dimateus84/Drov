@@ -1225,7 +1225,7 @@ span.o {
     overflow: hidden;
   }
   .section-top .img img {
-    min-width: 747px;
+    min-width: 767px;
     position: relative;
     transform: translate(-50%, 0);
     left: 50%;
